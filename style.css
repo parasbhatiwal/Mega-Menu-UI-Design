@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+body{
+    background-color: rgb(247,249,252);
+    color: rgb(148,155,177);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+#main{
+    width: 80%;
+    height: fit-content;
+    margin: 100px 10% 100px 10%;
+    background-color: white;
+    position: absolute;
+    padding: 0 0 100px 0;
+}
+
+
+#upper1 {
+    margin: 50px 0 0 6%;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 45px;
+    background-color: rgb(247,249,252);
+}
+
+#personal{
+    margin-left: 10px;
+}
+
+.personal{
+    padding: 8px 12px;
+}
+
+#business{
+    margin-left: 10px;
+
+}
+
+.business{
+    padding: 8px 12px;
+background-color: white;
+}
+
+
+#mid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+h5{
+text-transform: capitalize;
+margin-left: 40px;
+font-size: 30px;
+}
+
+.middle{
+    width: 250px;
+
+}
+
+.listitems {
+    list-style: none;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+#lower{
+    width: fit-content;
+    margin: 100px 10% 0 10%;
+    
+    background-color: rgb(247,249,252);
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.convertors{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0 0 11px lightblue;}
+
+.convertors p{
+    margin: 22px 0 0 30px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:350px){
+    .convertors{
+        width: 155px;
+    }
+    .listitems {
+        list-style: none;
+        font-size: 17px;
+        line-height: 1.2;
+    }
+    h5 {
+        text-transform: capitalize;
+        margin-left: 40px;
+        font-size: 25px;
+    }
+}
