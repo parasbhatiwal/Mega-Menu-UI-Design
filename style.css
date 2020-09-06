@@ -13,6 +13,7 @@ body{
     background-color: white;
     position: absolute;
     padding: 0 0 100px 0;
+    box-shadow: 0 0 140px lightgrey;
 }
 
 
@@ -85,7 +86,7 @@ justify-content: space-evenly;
     height: 100px;
     background-color: white;
     margin: 20px;
-    box-shadow: 0 0 11px lightblue;}
+    box-shadow: 0 0 33px lightgrey;}
 
 .convertors p{
     margin: 22px 0 0 30px;
